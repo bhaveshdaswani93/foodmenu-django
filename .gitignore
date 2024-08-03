@@ -1,0 +1,110 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.mo
+*.pyo
+*.db
+*.sqlite3
+
+# If your virtualenv is within the project
+venv/
+ENV/
+env/
+venv.bak/
+env.bak/
+
+# If your virtualenv is outside the project
+# If you have a workspace-level .gitignore file:
+# /venv/
+# /ENV/
+
+# Pyenv
+.python-version
+
+# Django migrations
+# **/migrations/*
+# !**/migrations/__init__.py
+
+# Static and media files
+staticfiles/
+media/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pycharm
+*.iml
+*.ipr
+*.iws
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Sphinx documentation
+docs/_build/
+
+# Pytest
+.pytest_cache/
+
+# pipenv
+Pipfile.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
