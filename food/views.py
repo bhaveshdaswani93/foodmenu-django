@@ -12,7 +12,8 @@ def index(request):
         'item_list': item_list,
     }
 
-    return HttpResponse(template.render(context, request))
+   # return HttpResponse(template.render(context, request))
+    return render(request, 'food/index.html', context)
 
 def item(request):
     return HttpResponse('<h1>This is an Item view.</h1>')
