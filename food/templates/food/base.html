@@ -24,13 +24,6 @@
       </li>
     </ul>
   </nav>
-   <ul>
-  {% for item in item_list %}
-    <li>
-      <a href="{% url 'food:detail' item.id%}">{{ item.id }} -- {{ item.item_name}}</a>
-    </li>
-  {% endfor %}
-</ul>
+   
 </body>
 </html>
-
